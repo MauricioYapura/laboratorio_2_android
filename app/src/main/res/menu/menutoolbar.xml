@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/buscarmenuitem"
+
+        android:icon="@android:drawable/ic_menu_search"
+
+        android:title="buscar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:id="@+id/itemGuardar"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Guardar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/itemAjustes"
+        android:title="ajustes"
+        />
+</menu>
